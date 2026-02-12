@@ -13,7 +13,7 @@ function App() {
           <div className='h-full w-1/5 bg-white'></div>
           <div className='h-full w-1/5 bg-black'></div>
           <div className='h-full w-1/5 bg-white'></div>
-          <div className='h-full w-1/5 bg-black'></div>
+          <div className='h-full w-1/5 bg-white'></div>
       </div>
 
 
