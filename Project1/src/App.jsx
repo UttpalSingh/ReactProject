@@ -6,9 +6,17 @@ import Projects from './pages/Projects'
 
 function App() {
 
-
   return (
     <div className='text-7xl'>
+      <div className='h-screen w-full flex fixed z-10'>
+          <div className='h-full w-1/5 bg-black'></div>
+          <div className='h-full w-1/5 bg-white'></div>
+          <div className='h-full w-1/5 bg-black'></div>
+          <div className='h-full w-1/5 bg-white'></div>
+          <div className='h-full w-1/5 bg-black'></div>
+      </div>
+
+
       <Routes>
         <Route path='/' element= {<Home/>}/>
         <Route path='/agence' element= {<Agence/>}/>
