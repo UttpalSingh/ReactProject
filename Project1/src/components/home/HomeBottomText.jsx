@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const HomeBottomText = () => {
   return (
-    <div className='font-[font1] flex items-center justify-center gap-2'>
+    <div className='font-[font1] flex items-center justify-center gap-2 text-white'>
     
     <div className='border-3 hover:border-[#D3FD50] hover:text-[#D3FD50] h-35 flex items-center px-10 border-white rounded-full uppercase'>
         
