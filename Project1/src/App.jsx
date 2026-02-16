@@ -2,12 +2,16 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Agence from "./pages/Agence";
 import Projects from "./pages/Projects";
+import Navbar from "./components/navigation/Navbar";
+import FullNav from "./components/navigation/FullNav";
 
 
 function App() {
 
   return (
-    <div className="">
+    <div>
+      <Navbar/>
+      <FullNav/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/agence" element={<Agence />} />
